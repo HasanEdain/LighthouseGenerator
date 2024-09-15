@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE6BB90B2C97862E0067B34A /* LighthouseGeneratorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6BB90A2C97862E0067B34A /* LighthouseGeneratorApp.swift */; };
+		FE6BB90D2C97862E0067B34A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6BB90C2C97862E0067B34A /* ContentView.swift */; };
+		FE6BB90F2C9786310067B34A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE6BB90E2C9786310067B34A /* Assets.xcassets */; };
+		FE6BB9122C9786310067B34A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE6BB9112C9786310067B34A /* Preview Assets.xcassets */; };
+		FE6BB91D2C9786320067B34A /* LighthouseGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6BB91C2C9786320067B34A /* LighthouseGeneratorTests.swift */; };
+		FE6BB9272C9786320067B34A /* LighthouseGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6BB9262C9786320067B34A /* LighthouseGeneratorUITests.swift */; };
+		FE6BB9292C9786320067B34A /* LighthouseGeneratorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6BB9282C9786320067B34A /* LighthouseGeneratorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE6BB9192C9786310067B34A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE6BB8FF2C97862E0067B34A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE6BB9062C97862E0067B34A;
+			remoteInfo = LighthouseGenerator;
+		};
+		FE6BB9232C9786320067B34A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE6BB8FF2C97862E0067B34A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE6BB9062C97862E0067B34A;
+			remoteInfo = LighthouseGenerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE6BB9072C97862E0067B34A /* LighthouseGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LighthouseGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE6BB90A2C97862E0067B34A /* LighthouseGeneratorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LighthouseGeneratorApp.swift; sourceTree = "<group>"; };
+		FE6BB90C2C97862E0067B34A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FE6BB90E2C9786310067B34A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE6BB9112C9786310067B34A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FE6BB9132C9786310067B34A /* LighthouseGenerator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LighthouseGenerator.entitlements; sourceTree = "<group>"; };
+		FE6BB9182C9786310067B34A /* LighthouseGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LighthouseGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE6BB91C2C9786320067B34A /* LighthouseGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LighthouseGeneratorTests.swift; sourceTree = "<group>"; };
+		FE6BB9222C9786320067B34A /* LighthouseGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LighthouseGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE6BB9262C9786320067B34A /* LighthouseGeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LighthouseGeneratorUITests.swift; sourceTree = "<group>"; };
+		FE6BB9282C9786320067B34A /* LighthouseGeneratorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LighthouseGeneratorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE6BB9042C97862E0067B34A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE6BB9152C9786310067B34A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE6BB91F2C9786320067B34A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE6BB8FE2C97862E0067B34A = {
+			isa = PBXGroup;
+			children = (
+				FE6BB9092C97862E0067B34A /* LighthouseGenerator */,
+				FE6BB91B2C9786320067B34A /* LighthouseGeneratorTests */,
+				FE6BB9252C9786320067B34A /* LighthouseGeneratorUITests */,
+				FE6BB9082C97862E0067B34A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE6BB9082C97862E0067B34A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE6BB9072C97862E0067B34A /* LighthouseGenerator.app */,
+				FE6BB9182C9786310067B34A /* LighthouseGeneratorTests.xctest */,
+				FE6BB9222C9786320067B34A /* LighthouseGeneratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE6BB9092C97862E0067B34A /* LighthouseGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				FE6BB90A2C97862E0067B34A /* LighthouseGeneratorApp.swift */,
+				FE6BB90C2C97862E0067B34A /* ContentView.swift */,
+				FE6BB90E2C9786310067B34A /* Assets.xcassets */,
+				FE6BB9132C9786310067B34A /* LighthouseGenerator.entitlements */,
+				FE6BB9102C9786310067B34A /* Preview Content */,
+			);
+			path = LighthouseGenerator;
+			sourceTree = "<group>";
+		};
+		FE6BB9102C9786310067B34A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FE6BB9112C9786310067B34A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FE6BB91B2C9786320067B34A /* LighthouseGeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE6BB91C2C9786320067B34A /* LighthouseGeneratorTests.swift */,
+			);
+			path = LighthouseGeneratorTests;
+			sourceTree = "<group>";
+		};
+		FE6BB9252C9786320067B34A /* LighthouseGeneratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE6BB9262C9786320067B34A /* LighthouseGeneratorUITests.swift */,
+				FE6BB9282C9786320067B34A /* LighthouseGeneratorUITestsLaunchTests.swift */,
+			);
+			path = LighthouseGeneratorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE6BB9062C97862E0067B34A /* LighthouseGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE6BB92C2C9786320067B34A /* Build configuration list for PBXNativeTarget "LighthouseGenerator" */;
+			buildPhases = (
+				FE6BB9032C97862E0067B34A /* Sources */,
+				FE6BB9042C97862E0067B34A /* Frameworks */,
+				FE6BB9052C97862E0067B34A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LighthouseGenerator;
+			productName = LighthouseGenerator;
+			productReference = FE6BB9072C97862E0067B34A /* LighthouseGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE6BB9172C9786310067B34A /* LighthouseGeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE6BB92F2C9786320067B34A /* Build configuration list for PBXNativeTarget "LighthouseGeneratorTests" */;
+			buildPhases = (
+				FE6BB9142C9786310067B34A /* Sources */,
+				FE6BB9152C9786310067B34A /* Frameworks */,
+				FE6BB9162C9786310067B34A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE6BB91A2C9786310067B34A /* PBXTargetDependency */,
+			);
+			name = LighthouseGeneratorTests;
+			productName = LighthouseGeneratorTests;
+			productReference = FE6BB9182C9786310067B34A /* LighthouseGeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE6BB9212C9786320067B34A /* LighthouseGeneratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE6BB9322C9786320067B34A /* Build configuration list for PBXNativeTarget "LighthouseGeneratorUITests" */;
+			buildPhases = (
+				FE6BB91E2C9786320067B34A /* Sources */,
+				FE6BB91F2C9786320067B34A /* Frameworks */,
+				FE6BB9202C9786320067B34A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE6BB9242C9786320067B34A /* PBXTargetDependency */,
+			);
+			name = LighthouseGeneratorUITests;
+			productName = LighthouseGeneratorUITests;
+			productReference = FE6BB9222C9786320067B34A /* LighthouseGeneratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE6BB8FF2C97862E0067B34A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					FE6BB9062C97862E0067B34A = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					FE6BB9172C9786310067B34A = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FE6BB9062C97862E0067B34A;
+					};
+					FE6BB9212C9786320067B34A = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FE6BB9062C97862E0067B34A;
+					};
+				};
+			};
+			buildConfigurationList = FE6BB9022C97862E0067B34A /* Build configuration list for PBXProject "LighthouseGenerator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE6BB8FE2C97862E0067B34A;
+			productRefGroup = FE6BB9082C97862E0067B34A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE6BB9062C97862E0067B34A /* LighthouseGenerator */,
+				FE6BB9172C9786310067B34A /* LighthouseGeneratorTests */,
+				FE6BB9212C9786320067B34A /* LighthouseGeneratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE6BB9052C97862E0067B34A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE6BB9122C9786310067B34A /* Preview Assets.xcassets in Resources */,
+				FE6BB90F2C9786310067B34A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE6BB9162C9786310067B34A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE6BB9202C9786320067B34A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE6BB9032C97862E0067B34A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE6BB90D2C97862E0067B34A /* ContentView.swift in Sources */,
+				FE6BB90B2C97862E0067B34A /* LighthouseGeneratorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE6BB9142C9786310067B34A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE6BB91D2C9786320067B34A /* LighthouseGeneratorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE6BB91E2C9786320067B34A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE6BB9292C9786320067B34A /* LighthouseGeneratorUITestsLaunchTests.swift in Sources */,
+				FE6BB9272C9786320067B34A /* LighthouseGeneratorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE6BB91A2C9786310067B34A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE6BB9062C97862E0067B34A /* LighthouseGenerator */;
+			targetProxy = FE6BB9192C9786310067B34A /* PBXContainerItemProxy */;
+		};
+		FE6BB9242C9786320067B34A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE6BB9062C97862E0067B34A /* LighthouseGenerator */;
+			targetProxy = FE6BB9232C9786320067B34A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FE6BB92A2C9786320067B34A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE6BB92B2C9786320067B34A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		FE6BB92D2C9786320067B34A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LighthouseGenerator/LighthouseGenerator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LighthouseGenerator/Preview Content\"";
+				DEVELOPMENT_TEAM = SP86DZAJ6F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.npc.LighthouseGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FE6BB92E2C9786320067B34A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LighthouseGenerator/LighthouseGenerator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LighthouseGenerator/Preview Content\"";
+				DEVELOPMENT_TEAM = SP86DZAJ6F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.npc.LighthouseGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FE6BB9302C9786320067B34A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SP86DZAJ6F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.npc.LighthouseGeneratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LighthouseGenerator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LighthouseGenerator";
+			};
+			name = Debug;
+		};
+		FE6BB9312C9786320067B34A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SP86DZAJ6F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.npc.LighthouseGeneratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LighthouseGenerator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LighthouseGenerator";
+			};
+			name = Release;
+		};
+		FE6BB9332C9786320067B34A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SP86DZAJ6F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.npc.LighthouseGeneratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = LighthouseGenerator;
+			};
+			name = Debug;
+		};
+		FE6BB9342C9786320067B34A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SP86DZAJ6F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.npc.LighthouseGeneratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = LighthouseGenerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE6BB9022C97862E0067B34A /* Build configuration list for PBXProject "LighthouseGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE6BB92A2C9786320067B34A /* Debug */,
+				FE6BB92B2C9786320067B34A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE6BB92C2C9786320067B34A /* Build configuration list for PBXNativeTarget "LighthouseGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE6BB92D2C9786320067B34A /* Debug */,
+				FE6BB92E2C9786320067B34A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE6BB92F2C9786320067B34A /* Build configuration list for PBXNativeTarget "LighthouseGeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE6BB9302C9786320067B34A /* Debug */,
+				FE6BB9312C9786320067B34A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE6BB9322C9786320067B34A /* Build configuration list for PBXNativeTarget "LighthouseGeneratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE6BB9332C9786320067B34A /* Debug */,
+				FE6BB9342C9786320067B34A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE6BB8FF2C97862E0067B34A /* Project object */;
+}
