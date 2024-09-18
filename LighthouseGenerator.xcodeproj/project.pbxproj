@@ -14,6 +14,17 @@
 		FE6BB91D2C9786320067B34A /* LighthouseGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6BB91C2C9786320067B34A /* LighthouseGeneratorTests.swift */; };
 		FE6BB9272C9786320067B34A /* LighthouseGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6BB9262C9786320067B34A /* LighthouseGeneratorUITests.swift */; };
 		FE6BB9292C9786320067B34A /* LighthouseGeneratorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6BB9282C9786320067B34A /* LighthouseGeneratorUITestsLaunchTests.swift */; };
+		FE6BB9392C9786660067B34A /* CellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6BB9382C9786660067B34A /* CellType.swift */; };
+		FE6BB93B2C9786DC0067B34A /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6BB93A2C9786DC0067B34A /* Puzzle.swift */; };
+		FE6BB93E2C9787BE0067B34A /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6BB93D2C9787BE0067B34A /* CellView.swift */; };
+		FE6BB9402C9788B40067B34A /* SolvedPuzzleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6BB93F2C9788B40067B34A /* SolvedPuzzleView.swift */; };
+		FE8DE2BD2C9B4DFF00A5B596 /* ShipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8DE2BC2C9B4DEF00A5B596 /* ShipView.swift */; };
+		FEDD98CD2C9792DF00CDEEB2 /* TestPuzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDD98CC2C9792DF00CDEEB2 /* TestPuzzle.swift */; };
+		FEDD98CF2C979E3700CDEEB2 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDD98CE2C979E3700CDEEB2 /* Location.swift */; };
+		FEDD98D12C97A6B000CDEEB2 /* LighthouseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDD98D02C97A6B000CDEEB2 /* LighthouseView.swift */; };
+		FEDD98D32C97A88300CDEEB2 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDD98D22C97A88300CDEEB2 /* Cell.swift */; };
+		FEDD98D52C97B51400CDEEB2 /* PuzzleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDD98D42C97B51400CDEEB2 /* PuzzleView.swift */; };
+		FEDD98D72C97B68C00CDEEB2 /* GenerateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDD98D62C97B68C00CDEEB2 /* GenerateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +56,17 @@
 		FE6BB9222C9786320067B34A /* LighthouseGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LighthouseGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE6BB9262C9786320067B34A /* LighthouseGeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LighthouseGeneratorUITests.swift; sourceTree = "<group>"; };
 		FE6BB9282C9786320067B34A /* LighthouseGeneratorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LighthouseGeneratorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FE6BB9382C9786660067B34A /* CellType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellType.swift; sourceTree = "<group>"; };
+		FE6BB93A2C9786DC0067B34A /* Puzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle.swift; sourceTree = "<group>"; };
+		FE6BB93D2C9787BE0067B34A /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		FE6BB93F2C9788B40067B34A /* SolvedPuzzleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolvedPuzzleView.swift; sourceTree = "<group>"; };
+		FE8DE2BC2C9B4DEF00A5B596 /* ShipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipView.swift; sourceTree = "<group>"; };
+		FEDD98CC2C9792DF00CDEEB2 /* TestPuzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPuzzle.swift; sourceTree = "<group>"; };
+		FEDD98CE2C979E3700CDEEB2 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		FEDD98D02C97A6B000CDEEB2 /* LighthouseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LighthouseView.swift; sourceTree = "<group>"; };
+		FEDD98D22C97A88300CDEEB2 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		FEDD98D42C97B51400CDEEB2 /* PuzzleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleView.swift; sourceTree = "<group>"; };
+		FEDD98D62C97B68C00CDEEB2 /* GenerateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +117,8 @@
 		FE6BB9092C97862E0067B34A /* LighthouseGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				FE6BB93C2C9787A90067B34A /* Views */,
+				FE6BB9352C97864B0067B34A /* Data */,
 				FE6BB90A2C97862E0067B34A /* LighthouseGeneratorApp.swift */,
 				FE6BB90C2C97862E0067B34A /* ContentView.swift */,
 				FE6BB90E2C9786310067B34A /* Assets.xcassets */,
@@ -116,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				FE6BB91C2C9786320067B34A /* LighthouseGeneratorTests.swift */,
+				FEDD98CC2C9792DF00CDEEB2 /* TestPuzzle.swift */,
 			);
 			path = LighthouseGeneratorTests;
 			sourceTree = "<group>";
@@ -127,6 +152,30 @@
 				FE6BB9282C9786320067B34A /* LighthouseGeneratorUITestsLaunchTests.swift */,
 			);
 			path = LighthouseGeneratorUITests;
+			sourceTree = "<group>";
+		};
+		FE6BB9352C97864B0067B34A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FE6BB9382C9786660067B34A /* CellType.swift */,
+				FE6BB93A2C9786DC0067B34A /* Puzzle.swift */,
+				FEDD98CE2C979E3700CDEEB2 /* Location.swift */,
+				FEDD98D22C97A88300CDEEB2 /* Cell.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FE6BB93C2C9787A90067B34A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE8DE2BC2C9B4DEF00A5B596 /* ShipView.swift */,
+				FE6BB93D2C9787BE0067B34A /* CellView.swift */,
+				FE6BB93F2C9788B40067B34A /* SolvedPuzzleView.swift */,
+				FEDD98D02C97A6B000CDEEB2 /* LighthouseView.swift */,
+				FEDD98D42C97B51400CDEEB2 /* PuzzleView.swift */,
+				FEDD98D62C97B68C00CDEEB2 /* GenerateView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +242,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					FE6BB9062C97862E0067B34A = {
 						CreatedOnToolsVersion = 15.4;
@@ -259,8 +308,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE8DE2BD2C9B4DFF00A5B596 /* ShipView.swift in Sources */,
 				FE6BB90D2C97862E0067B34A /* ContentView.swift in Sources */,
+				FE6BB93E2C9787BE0067B34A /* CellView.swift in Sources */,
+				FE6BB9402C9788B40067B34A /* SolvedPuzzleView.swift in Sources */,
+				FE6BB93B2C9786DC0067B34A /* Puzzle.swift in Sources */,
+				FEDD98D52C97B51400CDEEB2 /* PuzzleView.swift in Sources */,
 				FE6BB90B2C97862E0067B34A /* LighthouseGeneratorApp.swift in Sources */,
+				FEDD98D72C97B68C00CDEEB2 /* GenerateView.swift in Sources */,
+				FEDD98D32C97A88300CDEEB2 /* Cell.swift in Sources */,
+				FE6BB9392C9786660067B34A /* CellType.swift in Sources */,
+				FEDD98D12C97A6B000CDEEB2 /* LighthouseView.swift in Sources */,
+				FEDD98CF2C979E3700CDEEB2 /* Location.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE6BB91D2C9786320067B34A /* LighthouseGeneratorTests.swift in Sources */,
+				FEDD98CD2C9792DF00CDEEB2 /* TestPuzzle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +391,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -394,6 +455,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -424,6 +486,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"LighthouseGenerator/Preview Content\"";
 				DEVELOPMENT_TEAM = SP86DZAJ6F;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -451,6 +514,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"LighthouseGenerator/Preview Content\"";
 				DEVELOPMENT_TEAM = SP86DZAJ6F;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -472,10 +536,10 @@
 		FE6BB9302C9786320067B34A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = SP86DZAJ6F;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
@@ -491,10 +555,10 @@
 		FE6BB9312C9786320067B34A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = SP86DZAJ6F;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
@@ -510,9 +574,9 @@
 		FE6BB9332C9786320067B34A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = SP86DZAJ6F;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
@@ -527,9 +591,9 @@
 		FE6BB9342C9786320067B34A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = SP86DZAJ6F;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;

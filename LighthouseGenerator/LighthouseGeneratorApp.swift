@@ -11,7 +11,7 @@ import SwiftUI
 struct LighthouseGeneratorApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GenerateView()
         }
     }
 }
